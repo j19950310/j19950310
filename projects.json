@@ -1,0 +1,324 @@
+[
+  {
+    "title": "臺中國家歌劇院 - 2026 #BLOOM 音像藝術青年創作計畫",
+    "year": "2024 - 2026",
+    "company": "趨光影像 (前期) / 自由接案 (後期)",
+    "role": [
+      "Projection Tech",
+      "AI Environment Artist"
+    ],
+    "images": [],
+    "tags": [
+      "TouchDesigner",
+      "Generative AI",
+      "Projection Mapping"
+    ],
+    "links": {
+      "news": "https://www.npac-ntt.org/news/c-Gv6mLPdHCjJ"
+    },
+    "news": "https://www.npac-ntt.org/news/c-Gv6mLPdHCjJ",
+    "slug": "2026-bloom-audiovisual",
+    "content": "# 專案簡介\n入選臺中國家歌劇院「2026 #BLOOM 音像藝術青年創作計畫」，於大劇院前廳「光之曲幕」進行沉浸式投影展演。\n本計畫於任職趨光影像期間啟動，並於離職後以合作形式持續執行至完工。\n以「綠色劇場」與「環境友善」為主題，預計於 2026 年 2 月至 4 月進行階段性呈現與票選。\n\n# 負責項目 (Role & Responsibilities)\n- **投影技術整合 (Projection Tech)**：負責場域投影規劃與技術執行，處理大劇院前廳特殊曲面結構的影像映射。\n- **AI 環境創建 (AI Environment Creation)**：利用 AI 技術生成與建構符合「綠色劇場」主題的沉浸式虛擬環境。\n\n# 技術細節 (Technical Details)\n- **Software**: TouchDesigner (主要整合工具)\n- **Techniques**:\n  - AI Environment Generation (AI 場景生成)\n  - Projection Mapping (投影映射校正)\n- **Challenges**:\n  - 需克服展場特殊空間結構的投影難題，並確保 AI 生成素材的高解析度輸出品質 (5000x5000) 能符合展演規格。"
+  },
+  {
+    "title": "台灣國際兒少書展 - 互動闖關遊戲",
+    "year": 2025,
+    "company": "個人接案 / 獨立開發者",
+    "role": [
+      "Fullstack Engineer",
+      "System Architect"
+    ],
+    "tags": [
+      "Web",
+      "TouchDesigner"
+    ],
+    "images": ["0.png"],
+    "links": {},
+    "demo": "",
+    "repo": "",
+    "slug": "2025-child-book-exhibition",
+    "content": "# 專案簡介\n於台中主題城市館展出的短期闖關遊戲裝置。負責整體系統架構規劃與開發。\n\n# 技術細節\n- **Game Server**: 使用 TouchDesigner 作為核心伺服器，處理遊戲邏輯與狀態管理。\n- **Client**: 開發平板 Web App，模擬 NDS 雙螢幕操作體驗。\n- **Communication**: 透過 Websocket 實現大量客戶端與伺服器間的低延遲即時通訊。\n- **Challenges**: 解決展場高密度 WiFi 環境下的連線穩定性問題，並優化行動裝置的渲染效能。"
+  },
+  {
+    "title": "臺灣燈會時光迴廊 - 戲夢時光 AI 創作試映會",
+    "year": 2024,
+    "company": "趨光影像",
+    "role": [
+      "Technical Director",
+      "Creative Coder"
+    ],
+    "tags": [
+      "Projection",
+      "Generative AI"
+    ],
+    "images": ["0.png"],
+    "links": {},
+    "video": "",
+    "slug": "2024-lantern-festival-ai",
+    "content": "# 專案簡介\n台南燈會特別展區，結合懷舊電影與 AI 科技的互動體驗。\n\n# 技術細節\n- **AI Face Swap**: 實作即時人臉替換技術，讓民眾「進入」老電影海報中。\n- **Style Transfer**: 應用畫家風格遷移模型，生成獨特藝術風格影像。\n- **XR Projection**: 將生成結果即時投影於 XR 虛擬場景中，創造沉浸式體驗。"
+  },
+  {
+    "title": "國立台灣文學館 - 文學任意門",
+    "year": 2024,
+    "company": "趨光影像",
+    "role": [
+      "Web Frontend Developer",
+      "AI Integration"
+    ],
+    "tags": [
+      "Web",
+      "Generative AI",
+      "API Integration",
+      "Signal Processing"
+    ],
+    "links": {},
+    "images": ["0.png","1.png"],
+    "repo": "",
+    "slug": "2024-nmtl-literature-door",
+    "content": "# 專案簡介\n結合文學與科技的互動裝置展覽「通往臺灣詩社」。透過測驗與 AI 分析，帶領使用者認識台灣詩社文化。\n\n# 技術細節\n- **Frontend**: 開發兩組 Web 應用：\n    1. **Tablet Web**: 現場測驗端，供民眾進行互動問答。\n    2. **Online Web**: 線上展示端，呈現結果與詳細資訊。\n- **AI Integration**:\n    - **LLM**: 串接大型語言模型 API，分析使用者測驗結果並生成對應的詩社人格分析。\n    - **Stable Diffusion**: 架設本機 SD 環境，將分析結果即時生成個人化風格圖片。\n- **Hardware Integration**: 負責現場平板、印表機與網路環境的串接架設。"
+  },
+  {
+    "title": "臺灣科學節 - 超時光追蹤：恐龍未來式",
+    "year": 2024,
+    "company": "趨光影像",
+    "role": [
+      "Technical Director",
+      "System Integrator"
+    ],
+    "tags": [
+      "Generative AI",
+      "Projection",
+      "Signal Processing"
+    ],
+    "links": {},
+    "video": "",
+    "images": ["0.png"],
+    "slug": "2024-science-festival-dino",
+    "content": "# 專案簡介\n國立自然科學博物館多用途劇場的沈浸式互動劇。\n\n# 技術細節\n- **AI Style Transfer**: 開發自動化流程，將觀眾入場拍攝的照片進行即時風格轉換（恐龍化）。\n- **System Integration**: 整合相機擷取、AI 處理 Server 與現場投影系統。\n- **Media Server**: 負責劇場多投影機畫面的同步與幾何校正。"
+  },
+  {
+    "title": "聲音視覺生成藝術跨界培力計畫 - Live House D",
+    "year": 2024,
+    "company": "趨光影像",
+    "role": [
+      "Visual Artist",
+      "Technical Director"
+    ],
+    "tags": [
+      "TouchDesigner",
+      "Audio-Reactive",
+      "Generative AI",
+      "Signal Processing"
+    ],
+    "links": {},
+    "video": "",
+    "images": ["0.png"],
+    "slug": "2024-tmc-live-house-d",
+    "content": "# 專案簡介\n於台北流行音樂中心 Live House D 舉辦的工作坊與成果展演。\n\n# 技術細節\n- **Audio-Reactive**: 使用 TouchDesigner 接收來自 Ableton Live 的音訊訊號 (OSC/MIDI)。\n- **Generative Art**: 設計演算法將聲音頻率與節奏即時轉換為動態視覺圖形。\n- **Workshop**: 擔任技術講師，指導學員創作音像作品。"
+  },
+  {
+    "title": "拉緯人男聲合唱團《向生命乾杯》",
+    "year": 2023,
+    "company": "趨光影像",
+    "role": [
+      "Technical Director",
+      "Unreal Developer"
+    ],
+    "tags": [
+      "Signal Processing",
+      "Live Performance"
+    ],
+    "links": {},
+    "images": [],
+    "video": "",
+    "slug": "2023-lavie-choir",
+    "content": "# 專案簡介\n國家音樂廳演出，結合古典合唱與數位科技。\n\n# 技術細節\n- **Signal Analysis**: 即時分析樂器與人聲的音頻訊號。\n- **Motion Capture**: 整合穿戴式動補裝置數據。\n- **Unreal Engine**: 使用 UE 進行即時視覺渲染 (Real-time Rendering)，將聲音與動作轉化為舞台視覺。"
+  },
+  {
+    "title": "臺中國家歌劇院 - 光之曲幕 微件計畫",
+    "year": 2023,
+    "company": "趨光影像",
+    "role": [
+      "Visual Artist",
+      "AI Specialist"
+    ],
+    "tags": [
+      "Live Performance",
+      "Projection Mapping"
+    ],
+    "links": {},
+    "video": "",
+    "images": [],
+    "slug": "2023-ntt-light-web",
+    "content": "# 專案簡介\n臺中國家歌劇院大型曲牆投影製作。\n\n# 技術細節\n- **AI Inpainting**: 利用 AI 補繪技術處理影片素材的視角與解析度不足問題。\n- **Video Synthesis**: 批量生成與合成大量視覺素材。\n- **Projection Mapping**: 針對歌劇院特殊曲面牆體進行影像變形與校正設計。"
+  },
+  {
+    "title": "達明機器人 - 機械手臂 Unreal 串接",
+    "year": 2022,
+    "company": "趨光影像",
+    "role": [
+      "Unreal Developer",
+      "System Integrator"
+    ],
+    "tags": [
+      "Unreal Engine",
+      "Signal Processing",
+      "Live Performance"
+    ],
+    "links": {
+      "url": "https://www.youtube.com/watch?v=d0rTantI0kw"
+    },
+    "video": "",
+    "images": [],
+    "slug": "2022-techman-robot",
+    "content": "# 專案簡介\n機械手臂與虛擬引擎的訊號串接專案。\n\n# 技術細節\n- **Protocol Translation**: 開發中介層，將機械手臂的控制訊號轉譯為 Unreal Engine 可讀格式。\n- **Axis Calibration**: 解決實體手臂與 UE 虛擬模型之間的軸向與座標系差異。\n- **Digital Twin**: 達成毫秒級的虛實同步 (Real-time Synchronization)。"
+  },
+  {
+    "title": "聯博投信 AB - 投資精選系列網站",
+    "year": 2021,
+    "company": "版塊創意",
+    "role": [
+      "Frontend Engineer"
+    ],
+    "tags": [
+      "Data Visualization"
+    ],
+    "links": {},
+    "images": [],
+    "url": "",
+    "slug": "2021-ab-invest",
+    "content": "# 專案簡介\n聯博投信 (AllianceBernstein) 行銷活動網站。\n\n# 技術細節\n- 金融數據的視覺化呈現。\n- 高標準的瀏覽器相容性要求 (Cross-browser Compatibility)。"
+  },
+  {
+    "title": "空總臺灣當代文化實驗場 (C-LAB) 官方網站",
+    "year": 2021,
+    "company": "版塊創意",
+    "role": [
+      "Frontend Engineer"
+    ],
+    "tags": [
+      "Web",
+      "CMS Integration"
+    ],
+    "links": {
+      "url": "https://clab.org.tw/"
+    },
+    "url": "https://clab.org.tw/",
+    "images": [],
+    "slug": "2021-c-lab",
+    "content": "# 專案簡介\nC-LAB 官方網站參與製作。作為台灣重要的當代文化實驗場域，網站需要承載大量的展演資訊與活動紀錄。\n\n# 技術細節\n- 複雜的資訊架構 (Information Architecture) 前端實作。\n- 優化大量圖片與影音內容的載入效能。\n- 與後端 CMS 系統深度整合，確保內容上架的靈活性。"
+  },
+  {
+    "title": "趨光影像官方網站",
+    "year": 2021,
+    "company": "版塊創意",
+    "role": [
+      "Frontend Engineer"
+    ],
+    "tags": [
+      "Web",
+      "CMS Integration",
+      "Animation"
+    ],
+    "links": {
+      "url": "https://www.phototaxis.tv/"
+    },
+    "images": [],
+    "url": "https://www.phototaxis.tv/",
+    "slug": "2021-chao-kuang",
+    "content": "# 專案簡介\n趨光影像官方網站製作。負責前端切版與動態特效實作。\n\n# 技術細節\n- 高保真還原視覺設計。\n- 實作流暢的過場動畫與微互動。\n- 響應式網頁設計 (RWD)，適配 Desktop 與 Mobile 裝置。"
+  },
+  {
+    "title": "逢甲大學 官方網站",
+    "year": 2021,
+    "company": "版塊創意",
+    "role": [
+      "Frontend Engineer"
+    ],
+    "tags": [
+      "Web",
+      "CMS Integration"
+    ],
+    "links": {
+      "url": "https://www.fcu.edu.tw/"
+    },
+    "url": "https://www.fcu.edu.tw/",
+    "images": [],
+    "slug": "2021-fcu",
+    "content": "# 專案簡介\n逢甲大學官方網站首頁及各系所網站參與製作。\n\n# 技術細節\n- 模組化前端元件，方便學校後續維護與擴充。\n- Wordpress 多站架構實作。"
+  },
+  {
+    "title": "可不可熟成紅茶 官方網站",
+    "year": 2021,
+    "company": "版塊創意",
+    "role": [
+      "Frontend Engineer"
+    ],
+    "tags": [
+      "Web",
+      "Animation",
+      "CMS Integration"
+    ],
+    "links": {
+      "url": "https://kebuke.com/menu/"
+    },
+    "url": "https://kebuke.com/menu/",
+    "images": [],
+    "slug": "2021-kebuke",
+    "content": "# 專案簡介\n知名手搖飲品牌形象官網。重點在於呈現品牌獨特的英倫復古視覺風格。\n\n# 技術細節\n- 透過 CSS 與 JS 打造細緻互動，強化品牌質感。\n- 門市據點查詢與菜單展示功能的互動優化。\n- 針對行動裝置用戶體驗 (UX) 進行特別優化。\n- 多據點的資訊整合店卡展示。"
+  },
+  {
+    "title": "實踐大學 入學服務中心",
+    "year": 2021,
+    "company": "版塊創意",
+    "role": [
+      "Frontend Engineer"
+    ],
+    "tags": [
+      "Web",
+      "CMS Integration"
+    ],
+    "links": {
+      "url": "https://admission.usc.edu.tw/"
+    },
+    "url": "https://admission.usc.edu.tw/",
+    "images": [],
+    "slug": "2021-usc",
+    "content": "# 專案簡介\n實踐大學入學服務中心網站。\n\n# 技術細節\n- 針對特殊版型的切版製作與資料串接優化。"
+  },
+  {
+    "title": "KOKO 數位銀行 官方網站",
+    "year": 2020,
+    "company": "版塊創意",
+    "role": [
+      "Frontend Engineer"
+    ],
+    "status": "Archived",
+    "tags": [
+      "Web"
+    ],
+    "links": {},
+    "url": "",
+    "images": [],
+    "slug": "2020-koko-bank",
+    "content": "# 專案簡介\n國泰世華 KOKO 數位銀行形象官網 (已下架)。\n\n# 技術細節\n- 針對年輕族群設計的活潑互動介面。\n- 模板與後端的串接優化。"
+  },
+  {
+    "title": "RAW 官方網站",
+    "year": 2020,
+    "company": "版塊創意",
+    "role": [
+      "Frontend Engineer"
+    ],
+    "status": "Archived",
+    "tags": [
+      "Web",
+      "Animation"
+    ],
+    "links": {},
+    "url": "",
+    "images": [],
+    "slug": "2020-raw",
+    "content": "# 專案簡介\n米其林餐廳 RAW 官方網站 (已下架)。\n\n# 技術細節\n- 在手機板製作陀螺儀互動裝置。\n- 細膩的轉場動畫，呼應餐廳的精緻餐飲體驗。"
+  }
+]
