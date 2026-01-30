@@ -1,7 +1,22 @@
 import projectsData from './projects.json' with { type: 'json' };
 import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+
 const projectsSection = document.getElementById('projects');
 const gradientColors = ['#ff0000', '#ff7f00', '#ffff00', '#00ff00', '#0000ff', '#4b0082', '#9400d3'];
+const sizeMax = new Map([
+	['font-size', 32],
+	['padding', 28],
+	['padding-small', 14],
+	['radius', 32],
+	['size', 100],
+]);
+const sizeMin = new Map([
+	['font-size', 12],
+	['padding', 4],
+	['padding-small', 2],
+	['radius', 6],
+	['size', 10],
+]);
 
 function updateProjects() {
 	// clear projects
@@ -137,7 +152,6 @@ function closeModal(e) {
 	modal.remove();
 }
 
-
 function bindColorPalette() {
 	const colorPalette = document.querySelector('.color-palette');
 	colorPalette.addEventListener('mousemove', (e) => {
@@ -175,21 +189,14 @@ function bindColorPalette() {
 		const complementaryG = 255 - g;
 		const complementaryB = 255 - b;
 		const complementaryColor = `#${complementaryR.toString(16).padStart(2, '0')}${complementaryG.toString(16).padStart(2, '0')}${complementaryB.toString(16).padStart(2, '0')}`;
+		document.querySelector('.footer-text').innerHTML = `fine?`;
 		
 		document.documentElement.style.setProperty('--primary-color', interpolatedColor);
 		document.documentElement.style.setProperty('--secondary-color', complementaryColor);
 
-		// Random num 🎉
-		let randomNum = Math.floor(Math.random() * 10) + 1;
-		let partyText = 'Party time !!!';
-		while (randomNum > 0) {
-			partyText += '🎉';
-			randomNum--;
-		}
 		document.querySelector('.footer-text').innerHTML = partyText;
 	});
 	colorPalette.addEventListener('mouseleave', () => {
-		document.querySelector('.footer-text').innerHTML = `Hello...`;
 	});
 	document.querySelector('.color-palette-white').addEventListener('mousemove', () => {
 		document.documentElement.style.setProperty('--primary-color', '#000000');
@@ -201,11 +208,89 @@ function bindColorPalette() {
 	});
 }
 
+function addDocumentSize() {
+	let fontSize = document.documentElement.style.getPropertyValue('font-size');
+	let padSize = document.documentElement.style.getPropertyValue('--global-padding');
+	let padSizeSmall = document.documentElement.style.getPropertyValue('--global-padding-small');
+	let radiusSize = document.documentElement.style.getPropertyValue('--global-radius');
+	let sizeSize = document.documentElement.style.getPropertyValue('--global-size');
+	console.log(padSize, padSizeSmall, radiusSize, sizeSize);
+	// remove px
+	fontSize = parseInt(fontSize.replace('px', ''));
+	padSize = parseInt(padSize.replace('px', ''));
+	padSizeSmall = parseInt(padSizeSmall.replace('px', ''));
+	radiusSize = parseInt(radiusSize.replace('px', ''));
+	sizeSize = parseInt(sizeSize.replace('px', ''));
+
+	let size = new Map([
+		['font-size', fontSize + 8],
+		['padding', padSize + 4],
+		['padding-small', padSizeSmall + 2],
+		['radius', radiusSize + 8],
+		['size', sizeSize + 32],
+	]);
+
+	for (let [key, value] of size) {
+		if (value < sizeMin.get(key)) {
+			value = sizeMin.get(key);
+		}
+		if (value > sizeMax.get(key)) {
+			value = sizeMax.get(key);
+		}
+		size.set(key, value);
+	}
+	document.documentElement.style.setProperty('font-size', size.get('font-size') + 'px');
+	document.documentElement.style.setProperty('--global-padding', size.get('padding') + 'px');
+	document.documentElement.style.setProperty('--global-padding-small', size.get('padding-small') + 'px');
+	document.documentElement.style.setProperty('--global-radius', size.get('radius') + 'px');
+	document.documentElement.style.setProperty('--global-size', size.get('size') + 'px');
+}
+
+function minusDocumentSize() {
+	let padSize = document.documentElement.style.getPropertyValue('--global-padding');
+	let padSizeSmall = document.documentElement.style.getPropertyValue('--global-padding-small');
+	let radiusSize = document.documentElement.style.getPropertyValue('--global-radius');
+	let sizeSize = document.documentElement.style.getPropertyValue('--global-size');
+	let fontSize = document.documentElement.style.getPropertyValue('font-size');
+	// remove px
+	padSize = parseInt(padSize.replace('px', ''));
+	padSizeSmall = parseInt(padSizeSmall.replace('px', ''));
+	radiusSize = parseInt(radiusSize.replace('px', ''));
+	sizeSize = parseInt(sizeSize.replace('px', ''));
+	fontSize = parseInt(fontSize.replace('px', ''));
+	let size = new Map([
+		['font-size', fontSize - 8],
+		['padding', padSize - 4],
+		['padding-small', padSizeSmall - 2],
+		['radius', radiusSize - 8],
+		['size', sizeSize - 32],
+	]);
+	for (let [key, value] of size) {
+		if (value < sizeMin.get(key)) {
+			value = sizeMin.get(key);
+		}
+		if (value > sizeMax.get(key)) {
+			value = sizeMax.get(key);
+		}
+		size.set(key, value);
+	}
+	document.documentElement.style.setProperty('font-size', size.get('font-size') + 'px');
+	document.documentElement.style.setProperty('--global-padding', size.get('padding') + 'px');
+	document.documentElement.style.setProperty('--global-padding-small', size.get('padding-small') + 'px');
+	document.documentElement.style.setProperty('--global-radius', size.get('radius') + 'px');
+	document.documentElement.style.setProperty('--global-size', size.get('size') + 'px');
+}
+
+function bindSizeController() {
+	document.querySelector('.size-controller-button-minus').addEventListener('click', minusDocumentSize);
+	document.querySelector('.size-controller-button-plus').addEventListener('click', addDocumentSize);
+}
+
 function initialize() {
 	updateFilter();
 	updateProjects();
 	bindColorPalette();
+	bindSizeController();
 }
-
 
 initialize();

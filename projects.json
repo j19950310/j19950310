@@ -211,7 +211,7 @@
   {
     "title": "趨光影像官方網站",
     "year": 2021,
-    "company": "版塊創意",
+    "company": "趨光影像",
     "role": [
       "Frontend Engineer"
     ],
@@ -226,7 +226,7 @@
     "images": [],
     "url": "https://www.phototaxis.tv/",
     "slug": "2021-chao-kuang",
-    "content": "# 專案簡介\n趨光影像官方網站製作。負責前端切版與動態特效實作。\n\n# 技術細節\n- 高保真還原視覺設計。\n- 實作流暢的過場動畫與微互動。\n- 響應式網頁設計 (RWD)，適配 Desktop 與 Mobile 裝置。"
+    "content": "# 專案簡介\n趨光影像官方網站製作。\n\n# 技術細節\n- 高保真還原視覺設計。\n- 實作流暢的過場動畫與微互動。\n- 響應式網頁設計 (RWD)，適配 Desktop 與 Mobile 裝置。"
   },
   {
     "title": "逢甲大學 官方網站",
