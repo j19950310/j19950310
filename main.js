@@ -25,6 +25,7 @@ function updateProjects() {
 	// get current tag
 	const currentTag = document.querySelector('#filter button.active')?.dataset.tag || 'all';
 
+	projectsData.sort((a, b) => b.score - a.score);
 	// Create DOM Section
 	for (const project of projectsData) {
 		let content = marked.parse(project.content);
@@ -286,11 +287,25 @@ function bindSizeController() {
 	document.querySelector('.size-controller-button-plus').addEventListener('click', addDocumentSize);
 }
 
+function bindLoading() {
+	setTimeout(() => {
+		const loading = document.getElementById('loading');
+		loading.classList.remove('animation');
+		loading.classList.add('hidden');
+		setTimeout(() => {
+			loading.style.display = 'none';
+		}, 2000);
+	}, 1000);
+}
+
 function initialize() {
 	updateFilter();
 	updateProjects();
 	bindColorPalette();
 	bindSizeController();
+	bindLoading();
 }
 
-initialize();
+document.addEventListener('DOMContentLoaded', () => {
+	initialize();
+});

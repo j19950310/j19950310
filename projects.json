@@ -1,6 +1,7 @@
 [
   {
     "title": "臺中國家歌劇院 - 2026 #BLOOM 音像藝術青年創作計畫",
+    "score": 0,
     "year": "2024 - 2026",
     "company": "趨光影像 (前期) / 自由接案 (後期)",
     "role": [
@@ -14,14 +15,15 @@
       "Projection Mapping"
     ],
     "links": {
-      "news": "https://www.npac-ntt.org/news/c-Gv6mLPdHCjJ"
+      "url": "https://www.npac-ntt.org/program/events/c-FIp94iG0kbQ"
     },
     "news": "https://www.npac-ntt.org/news/c-Gv6mLPdHCjJ",
     "slug": "2026-bloom-audiovisual",
-    "content": "# 專案簡介\n入選臺中國家歌劇院「2026 #BLOOM 音像藝術青年創作計畫」，於大劇院前廳「光之曲幕」進行沉浸式投影展演。\n本計畫於任職趨光影像期間啟動，並於離職後以合作形式持續執行至完工。\n以「綠色劇場」與「環境友善」為主題，預計於 2026 年 2 月至 4 月進行階段性呈現與票選。\n\n# 負責項目 (Role & Responsibilities)\n- **投影技術整合 (Projection Tech)**：負責場域投影規劃與技術執行，處理大劇院前廳特殊曲面結構的影像映射。\n- **AI 環境創建 (AI Environment Creation)**：利用 AI 技術生成與建構符合「綠色劇場」主題的沉浸式虛擬環境。\n\n# 技術細節 (Technical Details)\n- **Software**: TouchDesigner (主要整合工具)\n- **Techniques**:\n  - AI Environment Generation (AI 場景生成)\n  - Projection Mapping (投影映射校正)\n- **Challenges**:\n  - 需克服展場特殊空間結構的投影難題，並確保 AI 生成素材的高解析度輸出品質 (5000x5000) 能符合展演規格。"
+    "content": "# 專案簡介\n入選臺中國家歌劇院「2026 #BLOOM 音像藝術青年創作計畫」，於大劇院前廳「光之曲幕」進行沉浸式投影展演。\n本計畫於任職趨光影像期間啟動，並於離職後以合作形式持續執行至完工。\n以「綠色劇場」與「環境友善」為主題，預計於 2026 年 2 月至 4 月進行階段性呈現與票選。\n\n# 負責項目 (Role & Responsibilities)\n- **投影技術整合 (Projection Tech)**：負責場域投影規劃與技術執行，處理大劇院前廳特殊曲面結構的影像映射。\n- **AI 環境創建 (AI Environment Creation)**：利用 AI 技術生成與建構符合「綠色劇場」主題的沉浸式虛擬環境。\n\n# 技術細節 (Technical Details)\n- **Software**: TouchDesigner (主要整合工具)\n- **Techniques**:\n  - AI Environment Generation (AI 場景生成)\n  - Projection Mapping (不規則面投影映射校正)\n- **Challenges**:\n  - 需克服展場特殊空間結構的投影難題，並確保 AI 生成素材的高解析度輸出品質 (5000x5000) 能符合展演規格。"
   },
   {
     "title": "台灣國際兒少書展 - 互動闖關遊戲",
+    "score": 0,
     "year": 2025,
     "company": "個人接案 / 獨立開發者",
     "role": [
@@ -32,8 +34,10 @@
       "Web",
       "TouchDesigner"
     ],
-    "images": ["0.png"],
-    "links": {},
+    "images": ["0.png", "1.png"],
+    "links": {
+      "url": "https://www.taichung.gov.tw/8868/8872/9971/3110472"
+    },
     "demo": "",
     "repo": "",
     "slug": "2025-child-book-exhibition",
@@ -41,6 +45,7 @@
   },
   {
     "title": "臺灣燈會時光迴廊 - 戲夢時光 AI 創作試映會",
+    "score": 0,
     "year": 2024,
     "company": "趨光影像",
     "role": [
@@ -51,14 +56,17 @@
       "Projection",
       "Generative AI"
     ],
-    "images": ["0.png"],
-    "links": {},
+    "images": [],
+    "links": {
+      "url": "https://admin.taiwan.net.tw/News/NewsTravel?a=35&id=30399"
+    },
     "video": "",
     "slug": "2024-lantern-festival-ai",
     "content": "# 專案簡介\n台南燈會特別展區，結合懷舊電影與 AI 科技的互動體驗。\n\n# 技術細節\n- **AI Face Swap**: 實作即時人臉替換技術，讓民眾「進入」老電影海報中。\n- **Style Transfer**: 應用畫家風格遷移模型，生成獨特藝術風格影像。\n- **XR Projection**: 將生成結果即時投影於 XR 虛擬場景中，創造沉浸式體驗。"
   },
   {
     "title": "國立台灣文學館 - 文學任意門",
+    "score": 0,
     "year": 2024,
     "company": "趨光影像",
     "role": [
@@ -71,14 +79,17 @@
       "API Integration",
       "Signal Processing"
     ],
-    "links": {},
-    "images": ["0.png","1.png"],
+    "links": {
+      "url": "https://event.culture.tw/mocweb/reg/NMTL/Detail.init.ctr?actId=40077"
+    },
+    "images": ["0.png","1.png","2.png"],
     "repo": "",
     "slug": "2024-nmtl-literature-door",
     "content": "# 專案簡介\n結合文學與科技的互動裝置展覽「通往臺灣詩社」。透過測驗與 AI 分析，帶領使用者認識台灣詩社文化。\n\n# 技術細節\n- **Frontend**: 開發兩組 Web 應用：\n    1. **Tablet Web**: 現場測驗端，供民眾進行互動問答。\n    2. **Online Web**: 線上展示端，呈現結果與詳細資訊。\n- **AI Integration**:\n    - **LLM**: 串接大型語言模型 API，分析使用者測驗結果並生成對應的詩社人格分析。\n    - **Stable Diffusion**: 架設本機 SD 環境，將分析結果即時生成個人化風格圖片。\n- **Hardware Integration**: 負責現場平板、印表機與網路環境的串接架設。"
   },
   {
     "title": "臺灣科學節 - 超時光追蹤：恐龍未來式",
+    "score": 0,
     "year": 2024,
     "company": "趨光影像",
     "role": [
@@ -90,7 +101,9 @@
       "Projection",
       "Signal Processing"
     ],
-    "links": {},
+    "links": {
+      "url": "https://www.nmns.edu.tw/ch/information/news/News-001732/"
+    },
     "video": "",
     "images": ["0.png"],
     "slug": "2024-science-festival-dino",
@@ -98,6 +111,7 @@
   },
   {
     "title": "聲音視覺生成藝術跨界培力計畫 - Live House D",
+    "score": 0,
     "year": 2024,
     "company": "趨光影像",
     "role": [
@@ -110,7 +124,9 @@
       "Generative AI",
       "Signal Processing"
     ],
-    "links": {},
+    "links": {
+      "url": "https://www.accupass.com/event/2406110333121563825644"
+    },
     "video": "",
     "images": ["0.png"],
     "slug": "2024-tmc-live-house-d",
@@ -118,6 +134,7 @@
   },
   {
     "title": "拉緯人男聲合唱團《向生命乾杯》",
+    "score": 0,
     "year": 2023,
     "company": "趨光影像",
     "role": [
@@ -128,14 +145,37 @@
       "Signal Processing",
       "Live Performance"
     ],
-    "links": {},
+    "links": {
+      "url": "https://www.opentix.life/event/1703661596959645696?srsltid=AfmBOoqO0AJRvcE6JLXVY4VU2UDjyMF4HQsQK7G_VGHWX8MpIQimBbbr"
+    },
     "images": [],
     "video": "",
     "slug": "2023-lavie-choir",
     "content": "# 專案簡介\n國家音樂廳演出，結合古典合唱與數位科技。\n\n# 技術細節\n- **Signal Analysis**: 即時分析樂器與人聲的音頻訊號。\n- **Motion Capture**: 整合穿戴式動補裝置數據。\n- **Unreal Engine**: 使用 UE 進行即時視覺渲染 (Real-time Rendering)，將聲音與動作轉化為舞台視覺。"
   },
+ {
+  "title": "嶺東數位媒體設計系 Unreal Engine 工作坊 - 課程業界實務講師",
+  "score": 0,
+  "year": 2024,
+  "company": "嶺東科技大學",
+  "role": [
+    "Unreal Engine Developer"
+  ],
+  "tags": [
+    "Unreal Engine",
+    "Live Performance"
+  ],
+  "links": {
+    "url": "https://dcd.ltu.edu.tw/p/406-1022-15553,r541.php?Lang=zh-tw"
+  },
+  "images": ["0.png"],
+  "video": "",
+  "slug": "2024-lingdong-unreal-workshop",
+  "content": "# 專案簡介\n嶺東科技大學數位媒體設計系 Unreal Engine 工作坊，課程業界實務講師。\n\n# 技術細節\n- **Unreal Engine**: 使用 UE 進行即時視覺渲染 (Real-time Rendering)，將聲音與動作轉化為舞台視覺。"
+ },
   {
-    "title": "臺中國家歌劇院 - 光之曲幕 微件計畫",
+    "title": "臺中國家歌劇院 - 光之曲幕 微件計畫 2023 (獲獎)",
+    "score": 0,
     "year": 2023,
     "company": "趨光影像",
     "role": [
@@ -146,7 +186,9 @@
       "Live Performance",
       "Projection Mapping"
     ],
-    "links": {},
+    "links": {
+      "url": "https://www.facebook.com/photo.php?fbid=997255732444469&id=100064801535778&set=a.661007096069336"
+    },
     "video": "",
     "images": [],
     "slug": "2023-ntt-light-web",
@@ -154,6 +196,7 @@
   },
   {
     "title": "達明機器人 - 機械手臂 Unreal 串接",
+    "score": 0,
     "year": 2022,
     "company": "趨光影像",
     "role": [
@@ -175,22 +218,26 @@
   },
   {
     "title": "聯博投信 AB - 投資精選系列網站",
+    "score": 0,
     "year": 2021,
     "company": "版塊創意",
     "role": [
       "Frontend Engineer"
     ],
     "tags": [
-      "Data Visualization"
+      "Web"
     ],
-    "links": {},
+    "links": {
+      "url": "https://www.abfunds.com.hk/campaign/apac/hk/theme/esg.html"
+    },
     "images": [],
     "url": "",
     "slug": "2021-ab-invest",
-    "content": "# 專案簡介\n聯博投信 (AllianceBernstein) 行銷活動網站。\n\n# 技術細節\n- 金融數據的視覺化呈現。\n- 高標準的瀏覽器相容性要求 (Cross-browser Compatibility)。"
+    "content": "# 專案簡介\n聯博投信 (AllianceBernstein) 行銷活動網站。\n\n# 技術細節\n- SVG動畫視覺化呈現。\n- 多模板附用與更新管理。"
   },
   {
     "title": "空總臺灣當代文化實驗場 (C-LAB) 官方網站",
+    "score": 1,
     "year": 2021,
     "company": "版塊創意",
     "role": [
@@ -210,6 +257,7 @@
   },
   {
     "title": "趨光影像官方網站",
+    "score": 1,
     "year": 2021,
     "company": "趨光影像",
     "role": [
@@ -223,13 +271,14 @@
     "links": {
       "url": "https://www.phototaxis.tv/"
     },
-    "images": [],
+    "images": ["0.png"],
     "url": "https://www.phototaxis.tv/",
-    "slug": "2021-chao-kuang",
+    "slug": "2021-phototaxis",
     "content": "# 專案簡介\n趨光影像官方網站製作。\n\n# 技術細節\n- 高保真還原視覺設計。\n- 實作流暢的過場動畫與微互動。\n- 響應式網頁設計 (RWD)，適配 Desktop 與 Mobile 裝置。"
   },
   {
     "title": "逢甲大學 官方網站",
+    "score": 1,
     "year": 2021,
     "company": "版塊創意",
     "role": [
@@ -245,10 +294,11 @@
     "url": "https://www.fcu.edu.tw/",
     "images": [],
     "slug": "2021-fcu",
-    "content": "# 專案簡介\n逢甲大學官方網站首頁及各系所網站參與製作。\n\n# 技術細節\n- 模組化前端元件，方便學校後續維護與擴充。\n- Wordpress 多站架構實作。"
+    "content": "# 專案簡介\n逢甲大學官方網站首頁及各系所網站參與製作。\n\n# 技術細節\n- 多人團隊合作協力開發經驗\n- 模組化前端元件，方便學校後續維護與擴充。\n- Wordpress 多站架構實作。"
   },
   {
     "title": "可不可熟成紅茶 官方網站",
+    "score": 1,
     "year": 2021,
     "company": "版塊創意",
     "role": [
@@ -269,6 +319,7 @@
   },
   {
     "title": "實踐大學 入學服務中心",
+    "score": 0,
     "year": 2021,
     "company": "版塊創意",
     "role": [
@@ -288,6 +339,7 @@
   },
   {
     "title": "KOKO 數位銀行 官方網站",
+    "score": 0,
     "year": 2020,
     "company": "版塊創意",
     "role": [
@@ -305,6 +357,7 @@
   },
   {
     "title": "RAW 官方網站",
+    "score": 0,
     "year": 2020,
     "company": "版塊創意",
     "role": [

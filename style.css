@@ -67,6 +67,45 @@ footer a {
   margin-right: var(--global-padding-small);
 }
 
+/* LOADING */
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 2s ease;
+}
+#loading.animation .loading-text {
+  animation: loading 1s ease infinite;
+}
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#loading.hidden {
+  opacity: 0;
+}
+.loading-text {
+  padding: var(--global-padding);
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  word-break: break-all;
+}
 .contact-info {
   flex: 1 1 auto;
   text-align: right;
@@ -208,6 +247,34 @@ footer a {
 #filter button:hover, #filter button.active {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+}
+
+
+/* ABOUT */
+#about {
+  padding: var(--global-padding);
+  border-bottom: 1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.intro-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro-cn {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: var(--global-padding-small);
+  font-weight: 700;
+}
+
+.intro-en {
+  font-family: "Cactus Classical Serif", serif;
+  font-size: 1rem;
+  opacity: 0.8;
+  line-height: 1.4;
 }
 
 /* PROJECTS */
