@@ -41,7 +41,7 @@
     "demo": "",
     "repo": "",
     "slug": "2025-child-book-exhibition",
-    "content": "# 專案簡介\n於台中主題城市館展出的短期闖關遊戲裝置。負責整體系統架構規劃與開發。\n\n# 技術細節\n- **Game Server**: 使用 TouchDesigner 作為核心伺服器，處理遊戲邏輯與狀態管理。\n- **Client**: 開發平板 Web App，模擬 NDS 雙螢幕操作體驗。\n- **Communication**: 透過 Websocket 實現大量客戶端與伺服器間的低延遲即時通訊。\n- **Challenges**: 解決展場高密度 WiFi 環境下的連線穩定性問題，並優化行動裝置的渲染效能。"
+    "content": "# 專案簡介\n於台中主題城市館展出的短期闖關遊戲裝置。\n\n負責整體系統架構規劃與開發。\n\n# 技術細節\n- **Game Server**: 使用 TouchDesigner 作為核心伺服器，處理遊戲邏輯與狀態管理。\n- **Client**: 開發平板 Web App，模擬 NDS 雙螢幕操作體驗。\n- **Communication**: 透過 Websocket 實現大量客戶端與伺服器間的低延遲即時通訊。\n- **Challenges**: 解決展場高密度 WiFi 環境下的連線穩定性問題，並優化行動裝置的渲染效能。"
   },
   {
     "title": "臺灣燈會時光迴廊 - 戲夢時光 AI 創作試映會",
@@ -85,7 +85,7 @@
     "images": ["0.png","1.png","2.png"],
     "repo": "",
     "slug": "2024-nmtl-literature-door",
-    "content": "# 專案簡介\n結合文學與科技的互動裝置展覽「通往臺灣詩社」。透過測驗與 AI 分析，帶領使用者認識台灣詩社文化。\n\n# 技術細節\n- **Frontend**: 開發兩組 Web 應用：\n    1. **Tablet Web**: 現場測驗端，供民眾進行互動問答。\n    2. **Online Web**: 線上展示端，呈現結果與詳細資訊。\n- **AI Integration**:\n    - **LLM**: 串接大型語言模型 API，分析使用者測驗結果並生成對應的詩社人格分析。\n    - **Stable Diffusion**: 架設本機 SD 環境，將分析結果即時生成個人化風格圖片。\n- **Hardware Integration**: 負責現場平板、印表機與網路環境的串接架設。"
+    "content": "# 專案簡介\n結合文學與科技的互動裝置展覽「通往臺灣詩社」。\n\n與文學顧問擬定測驗題目，透過測驗與 AI 分析，帶領使用者認識台灣詩社文化。\n\n# 技術細節\n- **Frontend**: 開發兩組 Web 應用：\n    1. **Tablet Web**: 現場測驗端，供民眾進行互動問答。\n    2. **Online Web**: 線上展示端，呈現結果與詳細資訊。\n- **AI Integration**:\n    - **LLM**: 串接大型語言模型 API，分析使用者測驗結果並生成對應的詩社人格分析。\n    - **Stable Diffusion**: 架設本機 SD 環境，將分析結果即時生成個人化風格圖片。\n- **Hardware Integration**: 負責現場平板、印表機與網路環境的串接架設。"
   },
   {
     "title": "臺灣科學節 - 超時光追蹤：恐龍未來式",
@@ -133,7 +133,7 @@
     "content": "# 專案簡介\n於台北流行音樂中心 Live House D 舉辦的工作坊與成果展演。\n\n# 技術細節\n- **Audio-Reactive**: 使用 TouchDesigner 接收來自 Ableton Live 的音訊訊號 (OSC/MIDI)。\n- **Generative Art**: 設計演算法將聲音頻率與節奏即時轉換為動態視覺圖形。\n- **Workshop**: 擔任技術講師，指導學員創作音像作品。"
   },
   {
-    "title": "拉緯人男聲合唱團《向生命乾杯》",
+    "title": "拉縴人男聲合唱團《向生命乾杯》國家音樂廳",
     "score": 0,
     "year": 2023,
     "company": "趨光影像",
@@ -148,9 +148,11 @@
     "links": {
       "url": "https://www.opentix.life/event/1703661596959645696?srsltid=AfmBOoqO0AJRvcE6JLXVY4VU2UDjyMF4HQsQK7G_VGHWX8MpIQimBbbr"
     },
-    "images": [],
+    "images": [
+      "0.png"
+    ],
     "video": "",
-    "slug": "2023-lavie-choir",
+    "slug": "2023-tmccaf-choir",
     "content": "# 專案簡介\n國家音樂廳演出，結合古典合唱與數位科技。\n\n# 技術細節\n- **Signal Analysis**: 即時分析樂器與人聲的音頻訊號。\n- **Motion Capture**: 整合穿戴式動補裝置數據。\n- **Unreal Engine**: 使用 UE 進行即時視覺渲染 (Real-time Rendering)，將聲音與動作轉化為舞台視覺。"
   },
  {
@@ -171,7 +173,7 @@
   "images": ["0.png"],
   "video": "",
   "slug": "2024-lingdong-unreal-workshop",
-  "content": "# 專案簡介\n嶺東科技大學數位媒體設計系 Unreal Engine 工作坊，課程業界實務講師。\n\n# 技術細節\n- **Unreal Engine**: 使用 UE 進行即時視覺渲染 (Real-time Rendering)，將聲音與動作轉化為舞台視覺。"
+  "content": "# 專案簡介\n嶺東科技大學數位媒體設計系 Unreal Engine 工作坊，課程業界實務講師。\n\n# 技術細節\n- **Unreal Engine**: 講解 Unreal Engine 的基本概念與操作技巧、實務應用與案例分析。"
  },
   {
     "title": "臺中國家歌劇院 - 光之曲幕 微件計畫 2023 (獲獎)",
@@ -190,8 +192,13 @@
       "url": "https://www.facebook.com/photo.php?fbid=997255732444469&id=100064801535778&set=a.661007096069336"
     },
     "video": "",
-    "images": [],
-    "slug": "2023-ntt-light-web",
+    "images": [
+      "0.png",
+      "1.png",
+      "2.png",
+      "3.png"
+    ],
+    "slug": "2023-npacntt",
     "content": "# 專案簡介\n臺中國家歌劇院大型曲牆投影製作。\n\n# 技術細節\n- **AI Inpainting**: 利用 AI 補繪技術處理影片素材的視角與解析度不足問題。\n- **Video Synthesis**: 批量生成與合成大量視覺素材。\n- **Projection Mapping**: 針對歌劇院特殊曲面牆體進行影像變形與校正設計。"
   },
   {
@@ -212,7 +219,11 @@
       "url": "https://www.youtube.com/watch?v=d0rTantI0kw"
     },
     "video": "",
-    "images": [],
+    "images": [
+      "0.png",
+      "1.png",
+      "2.png"
+    ],
     "slug": "2022-techman-robot",
     "content": "# 專案簡介\n機械手臂與虛擬引擎的訊號串接專案。\n\n# 技術細節\n- **Protocol Translation**: 開發中介層，將機械手臂的控制訊號轉譯為 Unreal Engine 可讀格式。\n- **Axis Calibration**: 解決實體手臂與 UE 虛擬模型之間的軸向與座標系差異。\n- **Digital Twin**: 達成毫秒級的虛實同步 (Real-time Synchronization)。"
   },
@@ -220,7 +231,7 @@
     "title": "聯博投信 AB - 投資精選系列網站",
     "score": 0,
     "year": 2021,
-    "company": "版塊創意",
+    "company": "版塊設計",
     "role": [
       "Frontend Engineer"
     ],
@@ -239,7 +250,7 @@
     "title": "空總臺灣當代文化實驗場 (C-LAB) 官方網站",
     "score": 1,
     "year": 2021,
-    "company": "版塊創意",
+    "company": "版塊設計",
     "role": [
       "Frontend Engineer"
     ],
@@ -253,7 +264,7 @@
     "url": "https://clab.org.tw/",
     "images": [],
     "slug": "2021-c-lab",
-    "content": "# 專案簡介\nC-LAB 官方網站參與製作。作為台灣重要的當代文化實驗場域，網站需要承載大量的展演資訊與活動紀錄。\n\n# 技術細節\n- 複雜的資訊架構 (Information Architecture) 前端實作。\n- 優化大量圖片與影音內容的載入效能。\n- 與後端 CMS 系統深度整合，確保內容上架的靈活性。"
+    "content": "# 專案簡介\nC-LAB 官方網站參與製作\n\n多層次類型結構的網站後台建制\n\n# 技術細節\n- 複雜的資訊架構 (Information Architecture) 前端實作。\n- 優化大量圖片與影音內容的載入效能。\n- 與後端 CMS 系統深度整合，確保內容上架的靈活性。"
   },
   {
     "title": "趨光影像官方網站",
@@ -269,18 +280,18 @@
       "Animation"
     ],
     "links": {
-      "url": "https://www.phototaxis.tv/"
+      "url": "https://www.phototaxis.tv/works"
     },
     "images": ["0.png"],
     "url": "https://www.phototaxis.tv/",
     "slug": "2021-phototaxis",
-    "content": "# 專案簡介\n趨光影像官方網站製作。\n\n# 技術細節\n- 高保真還原視覺設計。\n- 實作流暢的過場動畫與微互動。\n- 響應式網頁設計 (RWD)，適配 Desktop 與 Mobile 裝置。"
+    "content": "# 專案簡介\n趨光影像官方網站製作。\n\n非典型的列表與內頁面切換動畫設計。\n\n# 技術細節\n- 高保真還原視覺設計。\n- 實作流暢的過場動畫與微互動。"
   },
   {
     "title": "逢甲大學 官方網站",
     "score": 1,
     "year": 2021,
-    "company": "版塊創意",
+    "company": "版塊設計",
     "role": [
       "Frontend Engineer"
     ],
@@ -294,13 +305,13 @@
     "url": "https://www.fcu.edu.tw/",
     "images": [],
     "slug": "2021-fcu",
-    "content": "# 專案簡介\n逢甲大學官方網站首頁及各系所網站參與製作。\n\n# 技術細節\n- 多人團隊合作協力開發經驗\n- 模組化前端元件，方便學校後續維護與擴充。\n- Wordpress 多站架構實作。"
+    "content": "# 專案簡介\n逢甲大學官方網站首頁及各系所網站參與製作。\n\n# 技術細節\n- 多人團隊合作協力開發經驗\n- 模組化前端元件，方便學校後續維護與擴充。\n- WordPress 多站架構實作。"
   },
   {
     "title": "可不可熟成紅茶 官方網站",
     "score": 1,
     "year": 2021,
-    "company": "版塊創意",
+    "company": "版塊設計",
     "role": [
       "Frontend Engineer"
     ],
@@ -315,13 +326,13 @@
     "url": "https://kebuke.com/menu/",
     "images": [],
     "slug": "2021-kebuke",
-    "content": "# 專案簡介\n知名手搖飲品牌形象官網。重點在於呈現品牌獨特的英倫復古視覺風格。\n\n# 技術細節\n- 透過 CSS 與 JS 打造細緻互動，強化品牌質感。\n- 門市據點查詢與菜單展示功能的互動優化。\n- 針對行動裝置用戶體驗 (UX) 進行特別優化。\n- 多據點的資訊整合店卡展示。"
+    "content": "# 專案簡介\n知名手搖飲品牌形象官網。\n\n重點在於呈現品牌獨特的英倫復古視覺風格。\n\n# 技術細節\n- 透過 CSS 與 JS 打造細緻互動，強化品牌質感。\n- 門市據點查詢與菜單展示功能的互動優化。\n- 針對行動裝置用戶體驗 (UX) 進行特別優化。\n- 多據點的資訊整合店卡展示。"
   },
   {
     "title": "實踐大學 入學服務中心",
     "score": 0,
     "year": 2021,
-    "company": "版塊創意",
+    "company": "版塊設計",
     "role": [
       "Frontend Engineer"
     ],
@@ -341,7 +352,7 @@
     "title": "KOKO 數位銀行 官方網站",
     "score": 0,
     "year": 2020,
-    "company": "版塊創意",
+    "company": "版塊設計",
     "role": [
       "Frontend Engineer"
     ],
@@ -359,7 +370,7 @@
     "title": "RAW 官方網站",
     "score": 0,
     "year": 2020,
-    "company": "版塊創意",
+    "company": "版塊設計",
     "role": [
       "Frontend Engineer"
     ],

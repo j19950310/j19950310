@@ -294,8 +294,8 @@ function bindLoading() {
 		loading.classList.add('hidden');
 		setTimeout(() => {
 			loading.style.display = 'none';
-		}, 2000);
-	}, 1000);
+		}, 1000);
+	}, 700);
 }
 
 function initialize() {

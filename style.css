@@ -386,6 +386,27 @@ p {
 
 ul {
   margin-bottom: var(--global-padding-small);
+  padding: var(--global-padding-small) var(--global-padding);
+  position: relative;
+}
+ul li {
+  position: relative;
+}
+ul>li::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0.25rem;
+  height: 0.25rem;
+  right: 100%;
+  top: 0;
+  background-color: var(--primary-color);
+}
+ol {
+  padding: var(--global-padding-small) var(--global-padding);
+  margin-bottom: var(--global-padding-small);
+  line-height: 1.25;
+  list-style-type: decimal;
 }
 li {
   margin-bottom: var(--global-padding-small);
